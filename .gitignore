@@ -1,0 +1,58 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Django ----
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# ---- Entornos virtuales ----
+venv/
+ENV/
+env/
+.venv/
+
+# ---- Configuración de IDEs ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- Archivos del sistema ----
+.DS_Store
+Thumbs.db
+
+# ---- Archivos de compilación / cache ----
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Pruebas ----
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+
+# ---- Configuración de entorno / variables ----
+.env
+.env.*
+!.env.example
+
+# ---- Docker ----
+docker-compose.override.yml
+*.pid
+
+# ---- Migrations (opcional, descomentar si no quieres versionarlas) ----
+# */migrations/
+# !*/migrations/__init__.py
