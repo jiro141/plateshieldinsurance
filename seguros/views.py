@@ -68,6 +68,9 @@ class TarjetaSeguroFloridaViewSet(viewsets.ModelViewSet):
                 "nombre_asegurado": seguro.nombre_asegurado,
                 "numero_poliza": seguro.numero_poliza,
                 "numero_vin": seguro.numero_vin,
+                "marca":seguro.marca,
+                "modelo":seguro.modelo,
+                "anio":seguro.anio
             }
 
             # Si el seguro está pagado y tiene link, lo incluimos
